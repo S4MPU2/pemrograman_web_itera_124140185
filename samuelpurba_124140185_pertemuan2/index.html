@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dashboard Cuaca Mahasiswa</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body data-theme="light">
+  <div class="app">
+    <header class="app-header">
+      <div class="header-title">
+        <h1>🌦️ Dashboard Cuaca Mahasiswa</h1>
+        <p id="clock" class="clock">Memuat waktu...</p>
+      </div>
+      <button id="themeToggle" class="btn-ghost" type="button">🌙 Mode Gelap</button>
+    </header>
+
+    <section class="search-section">
+      <form id="searchForm" class="search-form">
+        <input
+          type="text"
+          id="searchInput"
+          placeholder="Cari kota, misal: Bandar Lampung, Bandung, Jakarta..."
+          autocomplete="off"
+          required
+        />
+        <button type="submit">🔍 Cari</button>
+      </form>
+      <div id="searchResults" class="search-results"></div>
+    </section>
+
+    <section class="toolbar">
+      <h2>Kota Tersimpan</h2>
+      <button id="refreshAll" class="btn-secondary" type="button">🔄 Perbarui Semua</button>
+    </section>
+
+    <main id="cityList" class="city-list">
+      <p class="empty-state">Memuat dashboard...</p>
+    </main>
+
+    <footer class="app-footer">
+      <p>
+        Data cuaca oleh
+        <a href="https://open-meteo.com" target="_blank" rel="noopener">Open-Meteo</a>.
+        Dibuat untuk tugas Pemrograman Web ITERA — Samuel Purba (124140185).
+      </p>
+    </footer>
+  </div>
+
+  <div id="toast" class="toast"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
