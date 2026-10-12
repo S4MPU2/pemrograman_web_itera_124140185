@@ -1,0 +1,49 @@
+* { box-sizing: border-box; }
+body {
+  font-family: Arial, sans-serif;
+  background: #f1f5f9;
+  margin: 0;
+  color: #1e293b;
+}
+.container { max-width: 720px; margin: 0 auto; padding: 16px; }
+h1 { text-align: center; }
+h2 { margin-top: 0; font-size: 18px; }
+.card {
+  background: #fff;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 16px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.1);
+}
+label { display: block; margin-top: 10px; font-weight: bold; font-size: 14px; }
+input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 4px;
+  border: 1px solid #cbd5e1;
+  border-radius: 4px;
+  font-size: 15px;
+}
+.error { color: #dc2626; display: block; min-height: 16px; }
+button {
+  margin-top: 12px;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 4px;
+  background: #2563eb;
+  color: #fff;
+  font-size: 15px;
+  cursor: pointer;
+}
+button.sekunder { background: #64748b; }
+button.hapus { background: #dc2626; margin: 0; padding: 6px 10px; font-size: 13px; }
+.table-wrap { overflow-x: auto; }
+table { width: 100%; border-collapse: collapse; font-size: 14px; }
+th, td { padding: 8px; border-bottom: 1px solid #e2e8f0; text-align: left; }
+th { background: #f8fafc; }
+.kosong { text-align: center; color: #94a3b8; }
+.baris { display: flex; justify-content: space-between; padding: 6px 0; }
+.baris.besar { font-size: 18px; border-top: 1px solid #e2e8f0; margin-top: 6px; padding-top: 10px; }
+.info { font-weight: bold; min-height: 20px; }
+.info.ok { color: #16a34a; }
+.info.kurang { color: #dc2626; }
