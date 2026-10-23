@@ -1,0 +1,62 @@
+# Dependencies
+node_modules/
+/.pnpm
+/.package-lock.json
+/.yarn
+/.pnpm-store
+
+# Build outputs
+/dist
+/.astro
+/.svelte-kit
+/.next
+/.out
+/.output
+/.vercel
+/.netlify
+/.svelte-kit
+/.vuepress
+/.vue-dev
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.lighthouse*
+
+# OS
+.DS_Store
+Thumbs.db
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Environment
+.env
+.env.local
+.env.development.local
+.env.testing.local
+.env.production.local
+
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/README.md
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# IDE
+.idea/
+*.swp
+*.swo
